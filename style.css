@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url(fonts/IBMPlexMono-Bold.ttf);
+}
+
+h1 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 56px;
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 48px;
+}
+
+.container {
+  display: inline-block;
+  margin: 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 26px;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 14px;
+}
+
+.Row {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+
+.Column {
+  display: table-cell;
+}
+
+.container__image {
+  width: 300px;
+  height: 300px;
+  object-fit: scale-down;
+  border-radius: 10px;
+}
+
+.container__title {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #121723;
+  font-size: 26px;
+  font-family: Anonymous Pro;
+  font-weight: 700;
+  word-wrap: break-word
+}
+
+.container__text {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  color: #121723;
+  font-size: 20px;
+  font-family: Anonymous Pro;
+  font-weight: 400;
+  word-wrap: break-word
+}
+
+.subtitle {
+
+  color: #121723;
+  font-size: 48px;
+  font-family: Anonymous Pro;
+  font-weight: 700;
+  line-height: 48px;
+  word-wrap: break-word;
+  margin: 10px;
+}
+
+.social {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: Anonymous Pro;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.social-f {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: Anonymous Pro;
+  font-weight: 700;
+  word-wrap: break-word;
+}
